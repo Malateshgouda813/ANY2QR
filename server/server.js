@@ -40,6 +40,11 @@ app.post("/save-qr", async (req, res) => {
     res.status(500).send({ error: err.message });
   }
 });
+app.get("/", (req, res) => {
+  res.send("ANY2QR Backend is running 🚀");
+});
+
+
 
 // ✅ Get QR History
 app.get("/qr-history", async (req, res) => {
