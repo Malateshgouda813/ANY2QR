@@ -7,7 +7,7 @@ const { connectDB, getDB } = require("./config/db");
 const app = express();
 
 // 🔥 FORCE PORT (avoid confusion)
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -65,5 +65,5 @@ app.get("/qr-history", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`🚀 Server running on port ${PORT}`);
 });
