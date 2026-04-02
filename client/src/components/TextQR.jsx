@@ -20,7 +20,7 @@ export default function TextQR() {
     setQr(text);
 
     try {
-      const res = await fetch("http://localhost:3000/save-qr", {
+      const res = await fetch("https://any2qr.onrender.com/save-qr", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

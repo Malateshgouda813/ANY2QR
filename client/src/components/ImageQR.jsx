@@ -32,7 +32,7 @@ export default function ImageQR() {
     setQr(image);
 
     try {
-      await fetch("http://localhost:3000/save-qr", {
+      await fetch("https://any2qr.onrender.com/save-qr", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
