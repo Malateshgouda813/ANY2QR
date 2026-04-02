@@ -21,7 +21,7 @@ ANY2QR is a full-stack web application that allows users to generate QR codes fo
  ![img alt](https://github.com/Malateshgouda813/ANY2QR/blob/10a2ee3b6a8593273751e896c6fcc909d9185aaf/dashboard2.png)
 
  ### Data Base page
- [img alt](https://github.com/Malateshgouda813/ANY2QR/blob/5f8bd4c39b1f7d7a4ff5a8f97e222d48f2e11c39/db.png)
+ ![img alt](https://github.com/Malateshgouda813/ANY2QR/blob/5f8bd4c39b1f7d7a4ff5a8f97e222d48f2e11c39/db.png)
 
 
 ## 🛠️ Tech Stack
